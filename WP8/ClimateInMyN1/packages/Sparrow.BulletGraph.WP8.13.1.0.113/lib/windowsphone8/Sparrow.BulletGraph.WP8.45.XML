@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sparrow.BulletGraph.WP8.45</name>
+    </assembly>
+    <members>
+        <member name="F:Sparrow.BulletGraph.Dock.Left">
+            <summary>
+            The left
+            </summary>
+        </member>
+        <member name="F:Sparrow.BulletGraph.Dock.Top">
+            <summary>
+            The top
+            </summary>
+        </member>
+        <member name="F:Sparrow.BulletGraph.Dock.Right">
+            <summary>
+            The right
+            </summary>
+        </member>
+        <member name="F:Sparrow.BulletGraph.Dock.Bottom">
+            <summary>
+            The bottom
+            </summary>
+        </member>
+        <member name="T:Sparrow.BulletGraph.DockPanel">
+            <summary>
+            DockPanel From http://silverlight.codeplex.com
+            </summary>
+        </member>
+        <member name="F:Sparrow.BulletGraph.DockPanel._ignorePropertyChange">
+            <summary>
+            A value indicating whether a dependency property change handler
+            should ignore the next change notification.  This is used to reset
+            the value of properties without performing any of the actions in
+            their change handlers.
+            </summary>
+        </member>
+        <member name="F:Sparrow.BulletGraph.DockPanel.LastChildFillProperty">
+            <summary>
+            Identifies the
+            <see cref="P:System.Windows.Controls.DockPanel.LastChildFill" />
+            dependency property.
+            </summary>
+        </member>
+        <member name="M:Sparrow.BulletGraph.DockPanel.OnLastChildFillPropertyChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            LastChildFillProperty property changed handler.
+            </summary>
+            <param name="d">DockPanel that changed its LastChildFill.</param>
+            <param name="e">Event arguments.</param>
+        </member>
+        <member name="M:Sparrow.BulletGraph.DockPanel.GetDock(System.Windows.UIElement)">
+            <summary>
+            Gets the value of the
+            <see cref="P:System.Windows.Controls.DockPanel.Dock" /> attached
+            property for the specified element.
+            </summary>
+            <param name="element">
+            The element from which the property value is read.
+            </param>
+            <returns>
+            The <see cref="P:System.Windows.Controls.DockPanel.Dock" /> property
+            value for the element.
+            </returns>
+        </member>
+        <member name="M:Sparrow.BulletGraph.DockPanel.SetDock(System.Windows.UIElement,Sparrow.BulletGraph.Dock)">
+            <summary>
+            Sets the value of the
+            <see cref="P:System.Windows.Controls.DockPanel.Dock" /> attached
+            property for the specified element to the specified dock value.
+            </summary>
+            <param name="element">
+            The element to which the attached property is assigned.
+            </param>
+            <param name="dock">
+            The dock value to assign to the specified element.
+            </param>
+        </member>
+        <member name="F:Sparrow.BulletGraph.DockPanel.DockProperty">
+            <summary>
+            Identifies the
+            <see cref="P:System.Windows.Controls.DockPanel.Dock" />
+            attached property.
+            </summary>
+        </member>
+        <member name="M:Sparrow.BulletGraph.DockPanel.OnDockPropertyChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            DockProperty property changed handler.
+            </summary>
+            <param name="d">UIElement that changed its Dock.</param>
+            <param name="e">Event arguments.</param>
+        </member>
+        <member name="M:Sparrow.BulletGraph.DockPanel.#ctor">
+            <summary>
+            Initializes a new instance of the
+            <see cref="T:System.Windows.Controls.DockPanel" /> class.
+            </summary>
+        </member>
+        <member name="M:Sparrow.BulletGraph.DockPanel.MeasureOverride(System.Windows.Size)">
+            <summary>
+            Measures the child elements of a
+            <see cref="T:System.Windows.Controls.DockPanel" /> in preparation
+            for arranging them during the
+            <see cref="M:System.Windows.Controls.DockPanel.ArrangeOverride(System.Windows.Size)" />
+            pass.
+            </summary>
+            <param name="constraint">
+            The area available to the
+            <see cref="T:System.Windows.Controls.DockPanel" />.
+            </param>
+            <returns>
+            The desired size of the
+            <see cref="T:System.Windows.Controls.DockPanel" />.
+            </returns>
+        </member>
+        <member name="M:Sparrow.BulletGraph.DockPanel.ArrangeOverride(System.Windows.Size)">
+            <summary>
+            Arranges the child elements of the
+            <see cref="T:System.Windows.Controls.DockPanel" /> control.
+            </summary>
+            <param name="arrangeSize">
+            The area in the parent element that the
+            <see cref="T:System.Windows.Controls.DockPanel" /> should use to
+            arrange its child elements.
+            </param>
+            <returns>
+            The actual size of the
+            <see cref="T:System.Windows.Controls.DockPanel" /> after the child
+            elements are arranged. The actual size should always equal
+            <paramref name="arrangeSize" />.
+            </returns>
+        </member>
+        <member name="P:Sparrow.BulletGraph.DockPanel.LastChildFill">
+            <summary>
+            Gets or sets a value indicating whether the last child element
+            added to a <see cref="T:System.Windows.Controls.DockPanel" />
+            resizes to fill the remaining space.
+            </summary>
+            <value>
+            True if the last element added resizes to fill the remaining space,
+            false to indicate the last element does not resize. The default is
+            true.
+            </value>
+        </member>
+    </members>
+</doc>
