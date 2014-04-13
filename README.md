@@ -1,4 +1,4 @@
 n.s.a.c.14
 ==========
 
-Come on boys
+For Android apk you have to import as a library the google.play.service_lib.
